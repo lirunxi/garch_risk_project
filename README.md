@@ -1,4 +1,4 @@
-# Out-of-Sample GARCH Portfolio Risk Engine
+# Out-of-Sample GARCH Portfolio Risk Model
 
 A statistically rigorous Python framework for modeling and validating portfolio market risk using **out-of-sample GARCH(1,1) volatility forecasts**, dynamic covariance matrices, and formal **VaR/ES backtesting**.
 
