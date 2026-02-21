@@ -1,24 +1,23 @@
 # Out-of-Sample GARCH Portfolio Risk Model
 
-A statistically rigorous Python framework for modeling and validating portfolio market risk using **out-of-sample GARCH(1,1) volatility forecasts**, dynamic covariance matrices, and formal **VaR/ES backtesting**.
+A statistically rigorous Python framework for modeling and validating portfolio market risk using out-of-sample GARCH(1,1) volatility forecasts, dynamic covariance matrices, and formal VaR/ES backtesting.
 
-The project implements a full institutional-style risk pipeline:  
+The project implements a the following risk pipeline:  
 data ingestion → diagnostics → volatility forecasting → portfolio risk → validation → regime analysis → dashboards.
 
 ---
 
 ## Key Features
 
-- **Out-of-sample GARCH(1,1) volatility forecasting** (expanding window)
-- **Time-varying covariance matrices** (GARCH vols + rolling correlations)
-- Portfolio **99% VaR & Expected Shortfall** (Parametric & Historical)
-- Formal **risk-model backtesting**
+- Out-of-sample GARCH(1,1) volatility forecasting (expanding window)
+- Time-varying covariance matrices (GARCH vols + rolling correlations)
+- Portfolio 99% VaR & Expected Shortfall
+- Risk-model backtesting
   - Kupiec Unconditional Coverage  
   - Christoffersen Independence  
   - Christoffersen Conditional Coverage
-- **Volatility-regime performance analysis**
-- Risk **visualization dashboards**
-- Modular, production-style Python architecture
+- Volatility-regime performance analysis
+- Risk visualization dashboards
 
 ---
 
